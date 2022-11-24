@@ -125,3 +125,18 @@ header {
     background-color: hsla(276, 41%, 93%, 1);
     border-radius: 1rem 1rem 1rem .7rem;
 }
+.dog-pics {
+    display: flex;
+    justify-content: flex-end;
+    gap: .5rem;
+    margin-top: 1.5rem;
+
+}
+.dog-pics img {
+    max-width: 4.4rem;
+    border-radius: 1rem;
+}
+.white {
+    display: flex;
+    justify-content: flex-end;
+}

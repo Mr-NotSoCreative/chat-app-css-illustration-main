@@ -42,3 +42,23 @@ body {
     justify-content: center;
     align-items: center;
 }
+main {
+    max-width: 92.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
+header {
+    order: 2;
+}
+.iOS-device {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow:  0 1.875rem 3.75rem -.625rem rgb(62 39 83 / 25%);
+    border-radius: 2rem;
+    padding: 1rem;
+    max-width: 26.5rem;
+    margin: 1.25rem;
+}

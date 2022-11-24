@@ -69,3 +69,38 @@ header {
     border-radius: 2rem 2rem .3rem .3rem;
     z-index: 1;
 }
+.front-camera {
+    max-width: 11.3rem;
+    height: 1.5rem;
+    margin: 0 auto;
+    border-radius: 0 0 1rem 1rem;
+    background-color: white;
+}
+.account-header {
+    display: flex;
+    align-items: center;
+    padding: 1.2rem;
+    gap: 9rem;
+}
+.account-info {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.profile-pic img {
+    max-width: 2.5rem;
+    border-radius: 50%;
+    border: 0.1rem solid white;
+}
+.name {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 500;
+}
+.status {
+    font-size: 1rem;
+    color: hsla(276, 41%, 93%, 1);
+    font-weight: 400;
+    opacity: 0.7;
+
+}

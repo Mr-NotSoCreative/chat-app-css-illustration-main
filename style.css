@@ -62,3 +62,10 @@ header {
     max-width: 26.5rem;
     margin: 1.25rem;
 }
+.device-header {
+    background: var(--linear-gradient2);
+    padding: 0 .5rem;
+    box-shadow: 0 .5rem .8125rem rgb(62 39 83 / 7%);
+    border-radius: 2rem 2rem .3rem .3rem;
+    z-index: 1;
+}

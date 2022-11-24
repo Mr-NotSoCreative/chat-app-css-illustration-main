@@ -136,7 +136,22 @@ header {
     max-width: 4.4rem;
     border-radius: 1rem;
 }
-.white {
+.white-text-box {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 1.5rem;
+}
+.white-text-box p {
+    background-color: white;
+    font-size: .9rem;
+    margin-top: .7rem;
+    padding: .4rem .5rem;
+    line-height: 1.2rem;
+    max-width: 14rem;
+    border-radius: 1rem 1rem .7rem 1rem;
+}
+
+.mt-20{
+    margin-top: 2rem;
 }

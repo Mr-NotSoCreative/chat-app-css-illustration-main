@@ -243,6 +243,11 @@ h1 {
     }
     
 }
+@media screen and (max-width: 80em) and (max-height: 68em) {
+    body {
+        background-position: top -23vh left -40vw, bottom -16vh right -133vw;
+    }
+}
 
 @media screen and (max-width: 50em) and (max-height: 80em) {
     body {

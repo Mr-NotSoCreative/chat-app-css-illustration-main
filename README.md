@@ -1,6 +1,6 @@
 # Frontend Mentor - Chat app CSS illustration solution
 
-This is a solution to the [Chat app CSS illustration challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Chat app CSS illustration challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -12,10 +12,6 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
   - [Built with](#built-with)
 - [Author](#author)
 
-
-
-
-
 ## Overview
 
 ### The challenge
@@ -24,15 +20,13 @@ Users should be able to:
 
 - View the optimal layout for the component depending on their device's screen size
 
-
 ### Desktop Screenshot
 
 ![img.png](./images/Screenshot-desktop.png)
+
 ### Mobile Screenshot
 
 ![img.png](./images/Screenshot-mobile.png)
-
-
 
 ### Links
 
@@ -52,13 +46,3 @@ Users should be able to:
 
 - Frontend Mentor - [@Mr-NotSoCreative](https://www.frontendmentor.io/profile/Mr-NotSoCreative)
 - Github - [@Mr-NotSoCreative](https://github.com/Mr-NotSoCreative)
-
-
-
-
-
-
-
-
-
-

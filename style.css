@@ -39,6 +39,7 @@ body {
     font-family: 'Rubik', sans-serif;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-image: url(./images/bg-top.png), url(./images/bg-bottom.png);

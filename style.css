@@ -69,7 +69,7 @@ h1 {
     flex-direction: column;
     background-color: white;
     box-shadow:  0 1.875rem 3.75rem -.625rem rgb(62 39 83 / 25%);
-    border-radius: 2rem;
+    border-radius: 2.5rem;
     padding: 1rem;
     min-width: 27.9rem;
     margin: 1.25rem;
@@ -121,7 +121,7 @@ h1 {
     display: flex;
     flex-direction: column;
     background-color: var(--Light-Grayish-Violet-app-background);
-    border-radius: 0 0 2rem 2rem;
+    border-radius: 0 0 2.5rem 2.5rem;
     padding: .75rem .8rem;
 }
 
@@ -217,7 +217,7 @@ h1 {
 }
 @media screen and (max-width: 90em) {
     body {
-        background-position: top -30vh left -7vw, bottom -30vh right -70vw;
+        background-position: top -37vh left -9vw, bottom -40vh right -70vw;
     }
     
 }
@@ -252,7 +252,17 @@ h1 {
         text-align: center;
     }
     body {
-        background-position: top -50vh left -29vw, bottom -68vh right -155vw;;
+        background-position: top -50vh left -29vw, bottom -68vh right -155vw;
     }
     
+}
+@media screen and (max-width: 30em) {
+    body {
+        background-position: top -66vh left -61vw, bottom -86vh right -230vw;
+    }
+}
+@media screen and (max-width: 24em) {
+    body {
+        background-position: top -52vh left -95vw, bottom -68vh right -301vw;
+    }
 }

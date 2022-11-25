@@ -65,6 +65,7 @@ h1 {
   color: var(--Very-Dark-Desaturated-Violet-main-heading);
   font-weight: 500;
   margin-bottom: 3rem;
+  font-size: 3.5rem;
 }
 .header-desc {
   color: var(--Dark-Grayish-Violet-paragraph);

@@ -25,9 +25,12 @@ Users should be able to:
 - View the optimal layout for the component depending on their device's screen size
 
 
-### Screenshot
+### Desktop Screenshot
 
-![](./screenshot.jpg)
+![img.png](./images/Screenshot-desktop.png)
+### Mobile Screenshot
+
+![img.png](./images/Screenshot-mobile.png)
 
 
 
@@ -45,17 +48,17 @@ Users should be able to:
 - CSS Flex
 - CSS Grid
 
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
-
-
-
-
-
 ## Author
 
-- Github - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Mr-NotSoCreative](https://www.frontendmentor.io/profile/Mr-NotSoCreative)
+- Github - [@Mr-NotSoCreative](https://github.com/Mr-NotSoCreative)
+
+
+
+
+
+
+
+
 
 

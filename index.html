@@ -1,131 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  
-  <title>Frontend Mentor | [Challenge Name Here]</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
 
- 
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  <main>
-    <header>
-      <h1>Simple booking</h1>
-      <p class="header-desc">Stay in touch with our dog walkers through the chat interface. This makes it easy to 
-        discuss arrangements and make bookings. Once the walk has been completed you can rate 
-        your walker and book again all through the chat.</p>
-    </header>
+    <title>Frontend Mentor | [Challenge Name Here]</title>
 
+   
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Simple booking</h1>
+        <p class="header-desc">
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </p>
+      </header>
 
+      <div class="iOS-device">
+        <div class="device-header">
+          <div>
+            <div class="front-camera"></div>
+            <div class="account-header">
+              <div class="account-info">
+                <img src="./images/arrow-left.svg" alt="" class="left-arrow" />
 
-    <div class="iOS-device">
-      <div class="device-header">
-        <div>
-          <div class="front-camera"></div>
-          <div class="account-header">
-
-            <div class="account-info">
-              <img src="./images/arrow-left.svg" alt="" class="left-arrow">
-
-              <picture class="profile-pic">
-                <img src="./images/avatar.jpg" alt="profile image">
-
-              </picture>
-              <div class="name-div">
-                <p class="name">Samuel Green</p>
-                <p class="status">Available to Walk</p>
+                <picture class="profile-pic">
+                  <img src="./images/avatar.jpg" alt="profile image" />
+                </picture>
+                <div class="name-div">
+                  <p class="name">Samuel Green</p>
+                  <p class="status">Available to Walk</p>
+                </div>
               </div>
+              <picture>
+                <img src="./images/burger-menu.svg" alt="" />
+              </picture>
             </div>
+          </div>
+        </div>
+
+        <div class="display">
+          <div class="text-box purple">
+            <p>That sounds great. I’d be happy with that.</p>
+          </div>
+          <div class="text-box purple">
+            <p>Could you send over some pictures of your dog, please?</p>
+          </div>
+
+          <div class="dog-pics">
+            <img src="./images/dog-image-1.jpg" alt="dog image 1" />
+            <img src="./images/dog-image-2.jpg" alt="dog image 2" />
+            <img src="./images/dog-image-3.jpg" alt="dog image 3" />
+          </div>
+
+          <div class="white-text-box">
+            <p>Here are a few pictures. She’s a happy girl!</p>
+            <p>Can you make it?</p>
+          </div>
+
+          <div class="text-box purple mt-20">
+            <p>
+              She looks so happy! The time we discussed works. How long shall I
+              take her out for?
+            </p>
+          </div>
+
+          <div class="price-div">
+            <div class="duration-div">
+              <input type="radio" name="thirty-min" id="thirty-min" />
+              <p class="duration">30 minute walk</p>
+            </div>
+            <p class="price">$29</p>
+          </div>
+          <div class="price-div">
+            <div class="duration-div">
+              <input type="radio" name="one-hour" id="one-hour" />
+              <p class="duration">1 hour walk</p>
+            </div>
+            <p class="price">$49</p>
+          </div>
+
+          <div class="messege-div">
+            <p>Type a messege...</p>
             <picture>
-              <img src="./images/burger-menu.svg" alt="">
+              <img src="./images/arrow-footer.svg" alt="" />
             </picture>
-            
           </div>
-
         </div>
       </div>
+    </main>
 
-
-
-      <div class="display">
-
-
-        <div class="text-box purple">
-          <p>That sounds great. I’d be happy with that.</p>
-        </div>
-        <div class="text-box purple">
-          <p>Could you send over some pictures of your dog, please?</p>
-        </div>
-
-        <div class="dog-pics">
-          <img src="./images/dog-image-1.jpg" alt="dog image 1">
-          <img src="./images/dog-image-2.jpg" alt="dog image 2">
-          <img src="./images/dog-image-3.jpg" alt="dog image 3">
-        </div>
-
-        <div class="white-text-box">
-          <p>Here are a few pictures. She’s a happy girl!</p>
-          <p> Can you make it?</p>
-        </div>
-      
-
-        <div class="text-box purple mt-20">
-          <p> She looks so happy! The time we discussed works. How long shall I take her out for?</p>
-        </div>
-
-        <div class="price-div">
-          <div class="duration-div">
-            <input type="radio" name="thirty-min" id="thirty-min">
-            <p class="duration">30 minute walk</p>
-          </div>
-          <p class="price">$29</p>
-        </div>
-        <div class="price-div">
-          <div class="duration-div">
-            <input type="radio" name="one-hour" id="one-hour">
-            <p class="duration">1 hour walk</p>
-          </div>
-          <p class="price">$49</p>
-        </div>
-
-        <div class="messege-div">
-          <p>Type a messege...</p>
-          <picture>
-            <img src="./images/arrow-footer.svg" alt="">
-          </picture>
-        </div>
-
-
-      </div>
-      
-    </div>
-  </main>
-
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://www.frontendmentor.io/profile/Mr-NotSoCreative">Fahim Hossain</a>.
-  </footer>
-
-</body>
+    <footer class="attribution">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/Mr-NotSoCreative"
+        >Fahim Hossain</a
+      >.
+    </footer>
+  </body>
 </html>
-
-
-
-
-
-<!-- body contetn -->
-  
-
-  
-  
-  <!--  -->
-
-  <!-- body contetn -->
